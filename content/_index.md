@@ -7,7 +7,7 @@ description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogo
   website. We set out to create a theme that is a pleasure to learn, and one that
   helps others get to know you better. It is more than a blog, with flexible custom
   layouts that help you introduce yourself online.
-image_left: true
+image_left: false
 images:
 - img/revoir.jpg
 show_action_link: true
