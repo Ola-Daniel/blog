@@ -14,7 +14,7 @@ show_action_link: true
 show_social_links: true
 subtitle: Cloud DevOps Engineer @ SecondSTAX Inc
 text_align_left: true
-title: Daniel Ola-Olorun
+title: Daniel O
 type: home
 ---
 

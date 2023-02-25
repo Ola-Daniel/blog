@@ -1,7 +1,7 @@
 baseURL = "https://danieloo.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "danieloo.com"
+title = "Daniel Ola-Olorun"
 author = "Daniel Ola-Olorun"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
