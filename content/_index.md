@@ -12,7 +12,7 @@ images:
 - img/revoir.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Cloud DevOps Engineer
+subtitle: Cloud DevOps Engineer and DevSecOps Consultant
 text_align_left: true
 title: Daniel O
 type: home
