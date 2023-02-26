@@ -1,7 +1,7 @@
 ---
-author: The R Markdown Team @RStudio
+author: Daniel Ola-Olorun
 cascade:
-  author: The R Markdown Team @RStudio
+  author: Daniel Ola-Olorun
   show_author_byline: true
   show_comments: false
   show_post_date: true
@@ -11,7 +11,7 @@ cascade:
     text_link_label: View recent talks
     text_link_url: /talk/
 description: |
-  This is a list for your talks, workshops, or other events with a time, date, and place.
+  This is a list for all my talks, Workshops, Webinars and Confrences 
 layout: list
 show_author_byline: true
 show_button_links: true
