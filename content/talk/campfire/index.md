@@ -1,25 +1,24 @@
 ---
-author: Alison Hill
+author: Daniel Ola-Olorun
 categories:
-- workshop
-date: "2021-01-12"
-date_end: "2021-01-13"
+- Webinar
+date: "2023-01-12"
+date_end: "2023-01-13"
 draft: false
-event: rstudio::global(2021)
-event_url: https://global.rstudio.com
-excerpt: Here is a talk I gave on making awesome personal websites using Hugo, blogdown,
-  GitHub, and Netlify.
+event: 
+event_url: 
+excerpt: Here is a talk I gave on ......
 featured: true
 layout: single
 links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://bakeoff.netlify.com/
+  url: 
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/apreshill/bakeoff
+  url: 
 location: Sydney, Australia
 show_post_time: false
 subtitle: Testing
