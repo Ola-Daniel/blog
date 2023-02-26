@@ -6,12 +6,18 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
-  
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
+  I have always been fascinated by technology and its ability to solve complex problems. This passion led me to pursue a career in Cloud and Security.
+
+As a Cloud DevOps Engineer, my work involves designing, implementing, and maintaining cloud infrastructure to support software applications. I am particularly interested in the automation aspect of DevOps, as I believe that it can help teams to work more efficiently and effectively. I have experience working with AWS and Azure and I am always eager to learn new cloud technologies.
+
+In addition to my work in Cloud DevOps, I am also interested in cybersecurity. With the increasing prevalence of cyber attacks, I believe that it is essential for all technology professionals to have a solid understanding of cybersecurity principles. I am constantly learning about the latest threats and best practices to protect against them.
+
+When I am not working, I enjoy reading about technology trends and advancements. I also enjoy coding and solving machines on hackthebox.eu and tryhackme.com.
+
+Thank you for taking the time to read through. If you have any questions or would like to connect, please feel free to reach out to me.
 show_outro: true
 outro: |
-  <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
+ 
 ---
 
 ** index doesn't contain a body, just front matter above.
