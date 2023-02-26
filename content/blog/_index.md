@@ -9,8 +9,7 @@ cascade:
     show_sidebar_adunit: false
     text_link_label: View recent posts
     text_link_url: /blog/
-description: "A Technical blog focused on Cloud, Golang,
-Application and Cloud Security"
+description: "A Technical blog focused on Cloud, Automation, Cloud Security, Golang and other stuff i find interesting."
 layout: list-grid 
 show_author_byline: true
 show_button_links: false
