@@ -1,17 +1,17 @@
 ---
 author: Daniel Ola-Olorun
 categories:
-- Azure Cloud
 - Cloud
+- Azure
 - Cloud Security
 date: "2023-02-26"
 draft: false
 excerpt: Microsoft Azure provides a range of advanced security tools that can be used to secure your cloud environment. In this blog post, we will explore how you can use Azure Sentinel, Defender for Cloud, Azure Monitor, and Azure Advisor to enhance the security of your Azure cloud.
 layout: single
-subtitle: Learn how to security your Azure Cloud Environment
+subtitle: 
 title: Maximizing Azure Security with Azure Sentinel, Defender for Cloud, Azure Monitor, and Azure Advisor
 ---
-
+![Cloud](cloud1029922.jpg)
 In today’s fast-paced digital world, security has become a major concern for businesses that are moving to the cloud. Microsoft Azure provides a range of advanced security tools that can be used to secure your cloud environment. In this blog post, we will explore how you can use Azure Sentinel, Defender for Cloud, Azure Monitor, and Azure Advisor to enhance the security of your Azure cloud.
 
 Azure Sentinel Azure Sentinel is a cloud-native security information and event management (SIEM) tool that uses machine learning and AI to analyze data across your enterprise, including your cloud and on-premises environments. The tool helps you identify and respond to threats quickly and efficiently.
