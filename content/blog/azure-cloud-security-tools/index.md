@@ -11,7 +11,6 @@ layout: single
 subtitle: 
 title: Maximizing Azure Security with Azure Sentinel, Defender for Cloud, Azure Monitor, and Azure Advisor
 ---
-![](cloud-featured.png)
  #### INTRODUCTION 
 
 
