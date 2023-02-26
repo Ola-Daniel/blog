@@ -25,4 +25,4 @@ subtitle: Testing
 title: A campfire
 ---
 
-I'm really excited to give this talk! Stay tuned for video and slides.
+
