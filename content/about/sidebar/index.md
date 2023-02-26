@@ -11,6 +11,8 @@ link_list:
   url: 
 - name: Security
   url: 
+- name: DevOps
+  url:
 - name: Cinematography
   url: 
 ---
