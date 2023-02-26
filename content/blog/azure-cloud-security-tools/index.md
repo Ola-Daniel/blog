@@ -22,7 +22,7 @@ In today’s fast-paced digital world, security has become a major concern for b
 
 Azure Sentinel is a cloud-native security information and event management (SIEM) tool that uses machine learning and AI to analyze data across your enterprise, including your cloud and on-premises environments. The tool helps you identify and respond to threats quickly and efficiently.
 
-![Azure Sentinel Dashboard]()
+![Azure Sentinel Dashboard](sentinel.png)
 
 To use Azure Sentinel, you must first connect your data sources, such as Azure services, third-party services, or custom data sources, to the tool. Once your data sources are connected, Azure Sentinel will collect data and analyze it using machine learning algorithms. The tool uses advanced analytics to identify suspicious activities, such as malware infections, data exfiltration, and other security threats.
 
