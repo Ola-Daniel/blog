@@ -10,7 +10,7 @@ cascade:
     text_link_label: View recent posts
     text_link_url: /blog/
 description: "A Technical blog focused on Cloud, Automation, Cloud Security, Golang and other stuff i find interesting."
-layout: list-grid 
+layout: list
 show_author_byline: true
 show_button_links: false
 show_post_date: true
