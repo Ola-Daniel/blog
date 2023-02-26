@@ -4,10 +4,10 @@ categories:
 - Webinar
 date: "2023-01-12"
 date_end: "2023-01-13"
-draft: true
+draft: false
 event: 
 event_url: 
-excerpt: Here is a talk I gave on ......
+excerpt: 
 featured: true
 layout: single
 links:
@@ -21,8 +21,8 @@ links:
   url: 
 location: Sydney, Australia
 show_post_time: false
-subtitle: Testing
-title: A campfire
+subtitle:
+title: Project DevSecOps
 ---
 
 
