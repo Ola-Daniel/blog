@@ -9,7 +9,7 @@ cascade:
     text_link_label: View all projects
     text_link_url: /project/
 description: A home for my personal projects.
-layout: list-grid
+layout: list
 show_author_byline: true
 show_button_links: false
 show_post_date: false
