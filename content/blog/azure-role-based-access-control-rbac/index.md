@@ -53,7 +53,7 @@ Azure Active Directory Role-Based Access Control (RBAC) provides several benefit
 
 4. Auditing and compliance: RBAC provides detailed auditing capabilities that allow organizations to track who has access to resources and what actions they have taken. This helps organizations meet compliance requirements and ensures that access to resources is properly controlled.
 
-Conclusion:
+ ###### Conclusion
 
 In conclusion, Azure Active Directory Role-Based Access Control (RBAC) is a powerful feature that allows organizations to control access to resources based on the user's role within the organization. The RBAC model is based on roles, assignments, and scopes, and provides a flexible and scalable solution for managing access to resources in the cloud. With RBAC, administrators can simplify access management, improve security, and ensure compliance with industry regulations. By leveraging Azure AD RBAC, organizations can ensure that their cloud resources are properly secured and managed.
 
