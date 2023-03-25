@@ -37,7 +37,7 @@ In Azure AD, the RBAC model is used to manage access to various resources such a
 
 ![List of built-in roles](avaliable_roles.png)
 
-2. Define scopes: Once roles are assigned, the next step is to define scopes. Scopes can be defined at the subscription, resource group, or individual resource level. For example, an administrator may define a scope that includes all virtual machines within a particular resource group. 
+2. Define scopes: Once roles are defined or selected, the next step is to define scopes. Scopes can be defined at the subscription, resource group, or individual resource level. For example, an administrator may define a scope that includes all virtual machines within a particular resource group. 
 
 ![]()
 
