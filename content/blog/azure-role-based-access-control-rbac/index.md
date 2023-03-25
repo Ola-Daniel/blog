@@ -46,7 +46,6 @@ In Azure AD, the RBAC model is used to manage access to various resources such a
 ![Assigning a reader role to a user](assign_role.png)
 
 
-
 4. Access resources: Users or groups with assigned roles can then access resources within the defined scope. Access is limited based on the permissions associated with the assigned role. 
 
 
