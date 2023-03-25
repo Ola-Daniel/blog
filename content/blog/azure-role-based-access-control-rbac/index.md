@@ -43,7 +43,7 @@ In Azure AD, the RBAC model is used to manage access to various resources such a
 
 3. Assign roles: The next step is to assign roles to users or groups. Assignments can be made at the subscription, resource group, or individual resource level.
 
-![Assigning a reader role to a user](assign_role.png)
+![Assigning a reader role to a user](assign_roles.png)
 
 
 4. Access resources: Users or groups with assigned roles can then access resources within the defined scope. Access is limited based on the permissions associated with the assigned role. 
