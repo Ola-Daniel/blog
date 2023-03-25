@@ -4,8 +4,8 @@ categories:
 - Cloud Security
 - Azure
 - Cloud
-date: "2023-03-05"
-draft: true
+date: "2023-03-25"
+draft: false
 excerpt: Azure Active Directory (Azure AD) is a cloud-based identity and access management (IAM) solution that provides organizations with the ability to control user access to various applications and resources in the cloud. Role-Based Access Control (RBAC) is a feature in Azure AD that allows administrators to manage access to resources based on the user's role within the organization. In this blog post, we will discuss the Azure Active Directory Role-Based Access Control (RBAC) feature and how it works to manage access to resources. 
 layout: single
 subtitle: 
@@ -17,7 +17,7 @@ title: Understanding Role-Based Access Control (RBAC)
 
 In this blog post, we will discuss the Azure Active Directory Role-Based Access Control (RBAC) feature and how it works to manage access to resources.
 
-Understanding Role-Based Access Control (RBAC):
+##### Understanding Role-Based Access Control (RBAC):
 
 Role-Based Access Control (RBAC) is a model that is used to control access to resources based on the user's role within an organization. In Azure AD, roles are defined by a set of permissions that determine what a user can or cannot do within an application or resource.
 
@@ -35,7 +35,7 @@ In Azure AD, the RBAC model is used to manage access to various resources such a
 
 1. Define roles: The first step is to define the roles that will be used to control access to resources. Azure AD provides a set of built-in roles, such as Owner, Contributor, and Reader, but administrators can also create custom roles that are specific to their organization. 
 
-![]()
+![List of built-in roles](avaliable_roles.png)
 
 2. Assign roles: The next step is to assign roles to users or groups. Assignments can be made at the subscription, resource group, or individual resource level.
 
@@ -47,9 +47,9 @@ In Azure AD, the RBAC model is used to manage access to various resources such a
 
 4. Access resources: Users or groups with assigned roles can then access resources within the defined scope. Access is limited based on the permissions associated with the assigned role. 
 
-![]()
 
-Benefits of Azure Active Directory Role-Based Access Control (RBAC):
+
+###### Benefits of Azure Active Directory Role-Based Access Control (RBAC):
 
 Azure Active Directory Role-Based Access Control (RBAC) provides several benefits, including:
 
@@ -61,7 +61,7 @@ Azure Active Directory Role-Based Access Control (RBAC) provides several benefit
 
 4. Auditing and compliance: RBAC provides detailed auditing capabilities that allow organizations to track who has access to resources and what actions they have taken. This helps organizations meet compliance requirements and ensures that access to resources is properly controlled.
 
- ###### Conclusion
+ ##### Conclusion
 
 In conclusion, Azure Active Directory Role-Based Access Control (RBAC) is a powerful feature that allows organizations to control access to resources based on the user's role within the organization. The RBAC model is based on roles, assignments, and scopes, and provides a flexible and scalable solution for managing access to resources in the cloud. With RBAC, administrators can simplify access management, improve security, and ensure compliance with industry regulations. By leveraging Azure AD RBAC, organizations can ensure that their cloud resources are properly secured and managed.
 
