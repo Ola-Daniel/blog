@@ -35,11 +35,11 @@ In Azure AD, the RBAC model is used to manage access to various resources such a
 
 1. Define roles: The first step is to define the roles that will be used to control access to resources. Azure AD provides a set of built-in roles, such as Owner, Contributor, and Reader, but administrators can also create custom roles that are specific to their organization. 
 
-![List of built-in roles]()
+![List of built-in roles](avaliable_roles.png)
 
 2. Define scopes: Once roles are defined or selected, the next step is to define scopes. Scopes can be defined at the subscription, resource group, or individual resource level. For example, an administrator may define a scope that includes all virtual machines within a particular resource group. 
 
-![]()
+![Defining a scope at the resource group level](resource_group_scope.png)
 
 3. Assign roles: The next step is to assign roles to users or groups. Assignments can be made at the subscription, resource group, or individual resource level.
 
