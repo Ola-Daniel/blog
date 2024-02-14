@@ -3,7 +3,7 @@ author: Daniel Ola-Olorun
 categories:
 - Cloud
 - Security
-- Architecture
+- Methodology
 date: "2024-02-13"
 draft: true
 excerpt: 
