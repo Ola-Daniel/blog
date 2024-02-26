@@ -11,7 +11,7 @@ links:
 #- icon: door-open
 #  icon_pack: fas
 #  name: Web App
-#  url: https://bakeoff.netlify.com/
+  url: https://buildprivacypolicy.com
 - icon: github
   icon_pack: fab
   name: code
