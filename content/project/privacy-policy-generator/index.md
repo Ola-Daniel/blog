@@ -8,9 +8,9 @@ draft: false
 excerpt: The Privacy Policy Generator is a tool that helps you create a customized privacy policy for your website or app in a few minutes. You just need to answer some questions about your website or app, such as what personal data you collect, how you use it, who you share it with, and what rights your users have. The Privacy Policy Generator will then generate a privacy policy that complies with the specified relevant laws and regulations and matches your needs and preferences.
 layout: single
 links:
-#- icon: door-open
-#  icon_pack: fas
-#  name: Web App
+- icon: door-open
+  icon_pack: fas
+  name: Privacy Policy Generator
   url: https://buildprivacypolicy.com
 - icon: github
   icon_pack: fab
