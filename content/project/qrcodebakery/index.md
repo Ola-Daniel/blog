@@ -1,10 +1,10 @@
 ---
 author: Daniel Ola-Olorun
 categories:
-- golang
-- kubernetes
-date: "2024-03-07"
-draft: true
+- Golang
+- Kubernetes
+date: "2024-03-09"
+draft: false
 excerpt: A powerful tool written in golang that can help you generate QR codes quickly and easily.
 layout: single
 links:
