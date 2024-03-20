@@ -4,6 +4,7 @@ categories:
 - Golang
 - Kubernetes
 - Encoding
+- Open Source
 date: "2024-03-09"
 draft: false
 excerpt: A powerful tool written in golang that can help you generate QR codes quickly and easily.
@@ -22,5 +23,6 @@ tags:
 - golang
 - kubernetes
 - encoding
+- open source
 title: QRCodeBakery
 ---
