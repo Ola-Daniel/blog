@@ -7,7 +7,7 @@ categories:
 - Open Source
 date: "2024-03-09"
 draft: false
-excerpt: A powerful tool written in golang that can help you generate QR codes quickly and easily.
+excerpt: QR Code Bakery is a powerful tool written in golang that can help you generate QR codes quickly and easily.
 layout: single
 links:
 - icon: door-open
