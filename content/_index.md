@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: Welcome to my little slice of the web! I am a passionate Cloud DevOps Engineer with expertise in AWS, Azure & GCP Administration, Security, and DevOps.                                     My goal is to help Dev teams leverage technology to solve complex problems. With a keen interest in Automation, Privacy Law, and Cinematography, I hope to share my knowledge and experiences with you through this platform.
+description: Welcome to my little slice of the web! I am a passionate Platform Engineer with expertise in AWS, Azure & GCP Administration, Security, and DevOps.                                     My goal is to help Dev teams leverage technology to solve complex problems. With a keen interest in Automation, Privacy Law, and Cinematography, I hope to share my knowledge and experiences with you through this platform.
 image_left: false
 images:
 - img/revoir.jpg
