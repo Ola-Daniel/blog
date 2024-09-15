@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "Daniel Ola-Olorun"
   orgLocal = ""
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = ""
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
@@ -43,7 +43,7 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "horla_dan"
+  twitter = "thisdanieloo"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
