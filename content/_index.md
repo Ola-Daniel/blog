@@ -8,7 +8,7 @@ images:
 - img/tfis3.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Cloud Security Engineer || DevSecOps Consultant
+subtitle: Cloud Security Engineer & DevSecOps Consultant
 text_align_left: true
 title: Daniel O
 type: home
