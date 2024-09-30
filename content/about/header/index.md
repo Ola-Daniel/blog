@@ -7,5 +7,5 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-My name is Daniel Ola-Olorun and I am a Cloud DevOps Engineer currently living and working remotely from Nigeria. :en: 
+My name is Daniel Ola-Olorun and I am a Cloud Security Engineer currently living and working remotely from Nigeria. :en: 
 
