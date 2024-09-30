@@ -12,7 +12,7 @@ description: A home for my personal projects.
 layout: list
 show_author_byline: true
 show_button_links: false
-show_post_date: false
+show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: Daniel Ola-Olorun
