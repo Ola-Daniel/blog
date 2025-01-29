@@ -5,16 +5,20 @@ categories:
 - Azure
 - Git
 - Github
-date: "2023-10-26"
+date: "2024-10-6"
 draft: true
 excerpt: 
 layout: single
 subtitle: 
-title: Automate Git repository backup with Github and Azure DevOps Services
+title: Automate Git repository backup from Github to Azure DevOps Services
 ---
  ### INTRODUCTION 
 
- A task that is commonly undertaken by Infra, Ops and DevOps engineers is to keep consistent and replicable backups of their code repostories for disaster recovery purposes. In this article, i wll walk us through how to backup our git repostories by replicating our repos from github to azure devops repos. It should be well noted that this task can also be carried out in reverse, i.e backing up an azure devops repostory to github.
+ ![repository backup diagram from draw.io](.png)
+
+ A task that is commonly undertaken by Infrastructure and DevOps engineers is to keep consistent and replicable backups of their code repostories for disaster recovery purposes. In this article, i will walk through how to backup our git repostories by replicating our repos from github to azure devops repos. It should be well noted that this task can also be carried out in reverse, i.e backing up an azure devops repostory to github.
+
+ Note: this walkthrough requires a basic understanding of version control systems and CI/CD workflows, specifically Git and Azure DevOps pipelines.
 
  Requirements
  1. Github account
@@ -27,7 +31,7 @@ title: Automate Git repository backup with Github and Azure DevOps Services
  1. Github Enterprise Service Account  
  2. Azure DevOps service account 
 
-
+ ## Summary
 In this walkthrough, we will build an azure devops pipeline workflow (add link to azure devops pipeline) that will clone all existing specified git repositories hosted in github and replicate them to identical repositories hosted in a Azure devops service project. You can find a link to the azure devops pipeline yaml file here in github. We will also configure the pipeline to run the workflow daily, i.e the backup will be carried out at a certain time every day, in our case, this will be 7pm GMT+1. lastly, it will send out a success or failure notification via email once the triggered workflow runs so we are always in the know if something ever goes wrong. 
 
 ##add link to azure devops documentation and github docs
@@ -35,13 +39,13 @@ In this walkthrough, we will build an azure devops pipeline workflow (add link t
 
 ##azure link to pipeline code hosted in github
 
-
+ ## Steps 
 1. Create Github PAT
-2. create azure devops PAT
-3. import existing github repostitory into azure devops repo
-4. Create pipeline repository
-5. create azure devops pipeline
-6. added secret pipeline variables with PATs
+2. Create azure devops PAT
+3. Import existing github repostitory into azure devops repo
+4. Create repo-backup repository
+5. Create azure devops repo-backup pipeline
+6. Add secret pipeline variables with PATs to workflow
 7. Manually trigger workflow to test
 8. Profit!
 
@@ -59,7 +63,7 @@ Generate the token
 
 go to your azure devops service project, go to user settings and generate a personal access token with 1 year expiry and custom defined scope with the following scopes
 
-
+![Generate Azure DevOps Personal Access Token](create_azure_devops_pat.png)
 Code:
 Read, write & manage
 Build:
@@ -76,7 +80,8 @@ To build our pipeline, we are going to be using the vsts mirror git repository u
 
 First and foremost, we should clone our target repository to azure devops, this is to ensure that when our pipeline runs, it will have a target(repo) to replicate the repository to. We could include a step to create a repository if it does not exist in azure devops repos, but that is out of the scope of this article. 
 
-Go to azure devops repos, and click "import a repository" button. 
+Go to azure devops repos, and click "import a repository" button.
+ ![](azure-devops-project-dashboard.png)
 If you dont see azure devops repos, make sure it is enabled for your project in the project settings.  
 You will be required to specify a url to an existing repository and may also require you to authenticate with your username and the PAT we initially created. 
 I am going to be using this repository for this demo "https://github.com/Ola-Daniel/learn-golang-with-test" which is a private repo so we'll need to authenticate. 
@@ -118,6 +123,8 @@ https://marketplace.visualstudio.com/items?itemName=swellaby.mirror-git-reposito
 
 click on get it free"
 
+![mirror-git-repository-vsts-task@1](mirror_git_repo_by_swllaby.png)  ![](.png)
+
 the task defination is as follows
 
 - task: mirror-git-repository-vsts-task@1 
@@ -130,7 +137,7 @@ the task defination is as follows
     destinationGitRepositoryPersonalAccessToken: $(AzureDevopsPAT)
     destinationVerifySSLCertificate: true
 
-using the imput parameters, we would need to specify the source and destination repositories. once completed, we will push our pipeline code to azure devops repos. 
+using the input parameters, we would need to specify the source and destination repositories. once completed, we will push our pipeline code to azure devops repos. 
 
 Note: remember to specify the source repo url i.e "https://github.com/Ola-Daniel/learn-golang-with-test.git" and the destination repo such as "https://dev.azure.com/danielolaolorun/testproject/_git/Repo-backup" without the ".git"
 
@@ -143,10 +150,12 @@ Next, add both PATs initially created as new variables with their variable names
 Once added, we can manually trigger a new pipeline workflow run by clicking "run"
 
 If everything goes well, our pipeline should run sucessfully, a mirror action initiated across the repositories and a status email sent out once the workflow is complete. If the pipeline fails, its a good idea to look at the pipeline logs and troubleshoot from there, looking at what the error says and try to figure it out. For example when i initially ran the pipeline, it failed because i mistyped a character in the task defination of the yml file.  initially specifying "destinationGitRepositoryUrl" rather than "destinationGitRepositoryUri". once i corrected the error, it ran sucessfully. 
-
+![](runs-view-azure-devops.png)
 
 Notification settings: 
 You will be notifed of all successful and failed build actions in azure pipeline to your accounts email address, no additional configuration is required.
+
+![](azure-devops-pipeline-history.png)
 
 
 Enterprise Users:
