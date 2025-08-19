@@ -6,15 +6,15 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  I have always been fascinated by technology and its ability to solve complex problems. This passion led me to pursue a career in Cloud and Security.
+  I’ve always been fascinated by technology and its power to solve complex problems, which naturally led me to pursue a career in cloud and security.
 
-  As a Cloud Security Engineer, my work involves designing, implementing, maintaining and securing cloud infrastructure to support software applications. I am particularly interested in the automation aspect of DevOps, as I believe that it can help teams to work more efficiently and effectively. I have experience working with AWS, Azure & GCP and I am always eager to learn new cloud technologies.
+  As a Cloud Security Engineer, I focus on designing, implementing, and securing cloud infrastructure to support modern applications. I’m especially drawn to the automation side of DevOps, where I see opportunities for teams to work more efficiently and effectively. With hands-on experience across AWS, Azure, and GCP, I’m always eager to explore emerging cloud technologies and practices.
 
-  In addition to my work in Cloud, I am also interested in Security. With the increasing prevalence of cyber attacks, I believe that it is essential for all technology professionals to have a solid understanding of cybersecurity principles. I am constantly learning about the latest threats in the different facets of information security and best practices to protect against them.
+  Security is a core part of my work and passion. In today’s landscape of evolving cyber threats, I believe every technology professional should understand cybersecurity fundamentals. I continuously expand my knowledge of the latest threats, defenses, and best practices to help strengthen organisational resilience.
 
-  When I am not working, I enjoy reading about space technology trends and advancements. I also enjoy programming and solving machines and CTFs on hackthebox.eu and tryhackme.com.
+  Outside of work, I enjoy reading about advancements in space technology, programming, and tackling security challenges on platforms like HackTheBox and TryHackMe.
 
-  Thank you for taking the time to read through. If you have any questions or would like to connect, please feel free to reach out to me.
+  Thanks for stopping by! If you’d like to connect or discuss cloud security, feel free to reach out. I’d be happy to chat.
 show_outro: false
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
